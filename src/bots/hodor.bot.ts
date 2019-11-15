@@ -1,5 +1,5 @@
 import { Observable, from, interval } from 'rxjs';
-import { switchMap, zip, map } from 'rxjs/operators';
+import {switchMap, zip, map, mergeMap} from 'rxjs/operators';
 
 import { registry, Bot, Reply } from '../bot';
 import { hodorYell } from './hodor-yell';
